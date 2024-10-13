@@ -15,6 +15,11 @@ spring:
 #        native:
 #          search-locations: "file:///Users//nikolasuscevic//Documents//Udemy//master-microservices-spring-boot-docker-kubernetes//config"
 #          search-location: "classpath:/config"
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"   
 
 server:
   port: 8071
